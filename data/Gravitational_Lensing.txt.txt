@@ -1,0 +1,69 @@
+Gravitational_Lensing.txt
+Introduction
+Gravitational lensing occurs when a massive object bends the path of light due to gravity. This phenomenon was predicted by Einstein's General Theory of Relativity and has become one of the most powerful tools in modern astronomy.
+
+How It Works
+Massive objects curve spacetime.
+
+Light follows these curved paths.
+
+As a result:
+
+Images become distorted.
+
+Objects appear magnified.
+
+Multiple images may form.
+
+Types of Gravitational Lensing
+Strong Lensing
+Produces:
+
+Einstein Rings
+
+Multiple images
+
+Large distortions
+
+Weak Lensing
+Creates subtle distortions.
+
+Used to map dark matter.
+
+Microlensing
+Occurs when smaller objects bend light.
+
+Useful for exoplanet discovery.
+
+Einstein Ring
+When alignment is perfect:
+
+Light forms a circular ring.
+
+Called an Einstein Ring.
+
+These are rare and scientifically valuable.
+
+Applications
+Dark Matter Mapping
+Shows invisible matter distribution.
+
+Galaxy Studies
+Magnifies distant galaxies.
+
+Exoplanet Detection
+Used in microlensing surveys.
+
+Scientific Importance
+Helps scientists study:
+
+Dark matter
+
+Galaxy clusters
+
+Cosmology
+
+Early universe objects
+
+Summary
+Gravitational lensing allows astronomers to use gravity itself as a natural telescope to observe distant 

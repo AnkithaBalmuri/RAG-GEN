@@ -1,0 +1,61 @@
+Introduction
+Mangalyaan, officially known as the Mars Orbiter Mission (MOM), was India's first interplanetary mission and the first mission to Mars developed by the Indian Space Research Organisation. The mission demonstrated India's capability to design, launch, navigate, and operate a spacecraft in deep space. Mangalyaan became one of the most successful and cost-effective Mars missions ever conducted.
+
+History and Development
+The idea for a Mars mission emerged after the success of Chandrayaan-1. ISRO scientists wanted to demonstrate India's ability to perform complex interplanetary missions.
+
+The project was approved in 2012 and developed within a very short timeframe of approximately 15 months.
+
+The mission's estimated budget was about ₹450 crore, making it one of the least expensive Mars missions in history.
+
+Launch and Journey
+Launch Date: November 5, 2013
+
+Launch Vehicle: PSLV-C25
+
+Launch Site: Satish Dhawan Space Centre
+
+Because PSLV could not directly send the spacecraft to Mars, the spacecraft performed multiple Earth-orbit raising maneuvers before entering a Mars transfer trajectory.
+
+After traveling nearly 680 million kilometers through space, the spacecraft successfully entered Mars orbit on September 24, 2014.
+
+Scientific Instruments
+Mars Color Camera
+
+Methane Sensor for Mars
+
+Thermal Infrared Imaging Spectrometer
+
+Lyman Alpha Photometer
+
+Mars Exospheric Neutral Composition Analyzer
+
+Major Achievements
+First Asian nation to reach Mars orbit
+
+First country to reach Mars on its maiden attempt
+
+Demonstrated deep-space communication
+
+Demonstrated interplanetary navigation
+
+Operated far longer than its planned six-month mission
+
+Scientific Contributions
+The mission studied:
+
+Martian atmosphere
+
+Dust storms
+
+Surface features
+
+Seasonal changes
+
+Atmospheric escape processes
+
+Importance
+Mangalyaan established India as a major spacefaring nation and inspired future deep-space missions.
+
+Summary
+Mangalyaan remains one of ISRO's greatest achievements and a landmark in global planetary exploration.

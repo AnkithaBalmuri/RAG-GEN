@@ -1,0 +1,1 @@
+const { spawn } = require('child_process'); const fs = require('fs'); const out = fs.openSync('work/node-detached.log','a'); const child = spawn(process.execPath, ['node_modules/next/dist/bin/next','dev','--hostname','0.0.0.0'], { cwd: process.cwd(), detached: true, stdio: ['ignore', out, out], windowsHide: false }); child.unref(); console.log(child.pid);

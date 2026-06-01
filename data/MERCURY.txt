@@ -1,0 +1,189 @@
+MERCURY
+
+Introduction
+
+Mercury is the smallest planet in the Solar System and the closest planet to the Sun. Despite being one of the most visible planets in the sky, Mercury remained poorly understood for centuries due to its proximity to the Sun. The planet is named after the Roman messenger god Mercury, known for his speed, reflecting the planet's rapid orbit around the Sun.
+
+Mercury is a rocky terrestrial planet with a heavily cratered surface resembling Earth's Moon. It experiences extreme temperature variations and has one of the most unusual environments among the planets in our Solar System.
+
+Discovery and Historical Observations
+
+Mercury has been known since ancient times and can be seen without a telescope. Ancient civilizations including the Babylonians, Greeks, Romans, Egyptians, and Chinese observed the planet and recorded its movements.
+
+Because Mercury appears close to the Sun, early astronomers found it difficult to observe. The invention of telescopes improved understanding of the planet, but detailed exploration only became possible with spacecraft missions in the twentieth and twenty-first centuries.
+
+Physical Characteristics
+
+Mercury is the smallest of the eight planets.
+
+Key facts:
+
+* Average diameter: 4,879 kilometers
+* Mass: Approximately 5.5% of Earth's mass
+* Distance from Sun: About 58 million kilometers
+* Orbital period: 88 Earth days
+* Rotation period: 59 Earth days
+* Surface gravity: About 38% of Earth's gravity
+
+Although small, Mercury possesses a large metallic core that occupies a significant portion of the planet's interior.
+
+Orbit and Rotation
+
+Mercury has the most eccentric orbit of any major planet in the Solar System.
+
+Its distance from the Sun changes significantly during its orbit.
+
+Mercury completes one revolution around the Sun in only 88 Earth days, making it the fastest planet in the Solar System.
+
+An unusual feature of Mercury is its 3:2 spin-orbit resonance. The planet rotates three times on its axis for every two orbits around the Sun.
+
+Surface Features
+
+Mercury's surface is covered with impact craters created by collisions with asteroids and comets over billions of years.
+
+Major surface features include:
+
+Impact Craters
+
+Mercury contains thousands of craters of various sizes. The largest known impact basin is the Caloris Basin, which measures approximately 1,550 kilometers across.
+
+Plains
+
+Smooth volcanic plains cover large regions of the planet.
+
+Scarps
+
+Long cliffs known as lobate scarps formed as Mercury cooled and contracted over time.
+
+These cliffs indicate that the planet has shrunk slightly during its geological history.
+
+Internal Structure
+
+Mercury consists of three major layers:
+
+Core
+
+The metallic core is rich in iron and occupies about 85% of the planet's radius.
+
+Mantle
+
+A rocky mantle surrounds the core.
+
+Crust
+
+The thin outer crust contains ancient impact features and volcanic deposits.
+
+Scientists believe part of Mercury's core remains molten, helping generate a magnetic field.
+
+Atmosphere
+
+Mercury does not possess a thick atmosphere like Earth.
+
+Instead, it has an extremely thin exosphere composed of:
+
+* Oxygen
+* Sodium
+* Hydrogen
+* Helium
+* Potassium
+
+Because the atmosphere is so thin, it cannot retain heat effectively.
+
+Temperature Extremes
+
+Mercury experiences some of the most extreme temperatures in the Solar System.
+
+Daytime temperatures can exceed:
+
+430°C (800°F)
+
+Nighttime temperatures can fall below:
+
+-180°C (-290°F)
+
+These dramatic variations occur because Mercury lacks a substantial atmosphere.
+
+Magnetic Field
+
+Mercury is one of the few planets with a global magnetic field.
+
+Although weaker than Earth's, the magnetic field protects the planet from some solar wind particles.
+
+The existence of this magnetic field suggests ongoing activity within Mercury's interior.
+
+Water Ice on Mercury
+
+One of the most surprising discoveries about Mercury is the presence of water ice.
+
+Radar observations and spacecraft data have revealed deposits of water ice in permanently shadowed craters near the poles.
+
+These regions never receive direct sunlight, allowing ice to survive despite the planet's proximity to the Sun.
+
+Space Missions
+
+Mariner 10
+
+Launched by NASA in 1973, Mariner 10 became the first spacecraft to visit Mercury.
+
+Achievements:
+
+* First close-up images
+* Mapping of surface features
+* Discovery of magnetic field
+
+MESSENGER Mission
+
+MESSENGER orbited Mercury from 2011 to 2015.
+
+Major discoveries included:
+
+* Confirmation of water ice
+* Detailed surface mapping
+* Analysis of chemical composition
+* Study of magnetic field
+
+BepiColombo Mission
+
+BepiColombo is a joint mission by ESA and JAXA launched in 2018.
+
+Mission objectives include:
+
+* Studying Mercury's interior
+* Investigating magnetic field dynamics
+* Understanding planetary evolution
+
+Scientific Importance
+
+Mercury provides valuable information about:
+
+* Planet formation
+* Early Solar System history
+* Geological evolution
+* Planetary magnetic fields
+
+Its large iron core and unusual characteristics make it an important target for scientific research.
+
+Interesting Facts
+
+* Mercury is the smallest planet in the Solar System.
+* It has the shortest year of any planet.
+* A day on Mercury lasts longer than its year.
+* Mercury contains water ice near its poles.
+* The planet has no moons.
+* It has a massive iron core relative to its size.
+* Mercury experiences temperature changes of more than 600°C.
+
+Current Research
+
+Modern scientists continue studying Mercury using:
+
+* BepiColombo mission data
+* Ground-based telescopes
+* Radar observations
+* Computer simulations
+
+Researchers aim to better understand the planet's formation, interior structure, and magnetic field.
+
+Summary
+
+Mercury is a small but scientifically important planet that offers unique insights into the formation and evolution of rocky worlds. Its extreme environment, giant iron core, ancient cratered surface, and surprising deposits of polar ice make it one of the most fascinating planets in the Solar System. Ongoing missions and future studies will continue revealing new information about this remarkable world closest to the Sun.

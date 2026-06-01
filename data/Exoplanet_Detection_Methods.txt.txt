@@ -1,0 +1,112 @@
+Exoplanet_Detection_Methods.txt
+Introduction
+Exoplanets are planets that orbit stars outside our Solar System. Since the discovery of the first confirmed exoplanet in 1992, astronomers have identified thousands of exoplanets using various detection techniques. These methods help scientists understand planetary formation, habitability, and the possibility of life elsewhere in the universe.
+
+History of Exoplanet Discovery
+In 1992, astronomers discovered planets orbiting a pulsar.
+
+In 1995, the first exoplanet orbiting a Sun-like star, 51 Pegasi b, was discovered.
+
+Today, thousands of exoplanets have been confirmed.
+
+Transit Method
+The most successful detection method.
+
+How It Works
+When a planet passes in front of its star:
+
+The star appears slightly dimmer.
+
+Telescopes measure the brightness decrease.
+
+Advantages
+Can determine planet size.
+
+Works for large surveys.
+
+Missions
+Kepler Space Telescope
+
+TESS Mission
+
+Radial Velocity Method
+Also known as the Doppler Method.
+
+How It Works
+A planet's gravity causes its star to wobble.
+
+This motion changes the star's light spectrum.
+
+Advantages
+Measures planetary mass.
+
+Confirms transit discoveries.
+
+Direct Imaging
+Astronomers directly photograph exoplanets.
+
+Challenges:
+
+Stars are much brighter than planets.
+
+Requires advanced instruments.
+
+Useful for:
+
+Large planets
+
+Distant orbits
+
+Gravitational Microlensing
+Based on Einstein's theory of gravity.
+
+When a foreground star passes in front of a background star:
+
+Gravity bends light.
+
+Planetary effects can be detected.
+
+Useful for detecting distant planets.
+
+Astrometry
+Measures tiny positional shifts of stars.
+
+Advantages:
+
+Can determine planetary mass.
+
+Useful for nearby stars.
+
+Habitable Zone
+The region around a star where liquid water may exist.
+
+Also called:
+
+"Goldilocks Zone"
+
+Many exoplanet searches focus on this region.
+
+Major Missions
+Kepler
+Discovered thousands of exoplanets.
+
+TESS
+Continues searching for nearby exoplanets.
+
+James Webb Space Telescope
+Studies exoplanet atmospheres.
+
+Scientific Importance
+Exoplanet research helps scientists understand:
+
+Planet formation
+
+Habitability
+
+Life beyond Earth
+
+Solar System evolution
+
+Summary
+Exoplanet detection methods have revealed thousands of worlds beyond our Solar System and transformed modern astronomy.
+

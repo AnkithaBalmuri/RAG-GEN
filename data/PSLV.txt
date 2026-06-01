@@ -1,0 +1,46 @@
+PSLV
+
+Introduction
+
+The Polar Satellite Launch Vehicle (PSLV) is one of ISRO's most successful and reliable launch vehicles.
+
+Development
+
+PSLV was developed to place satellites into polar and sun-synchronous orbits.
+
+Configuration
+
+PSLV has four stages:
+
+* First stage: Solid fuel
+* Second stage: Liquid fuel
+* Third stage: Solid fuel
+* Fourth stage: Liquid fuel
+
+Achievements
+
+PSLV has launched:
+
+* Earth observation satellites
+* Navigation satellites
+* Scientific spacecraft
+* International satellites
+
+Major Missions
+
+* Chandrayaan-1
+* Mars Orbiter Mission
+* RISAT satellites
+* Cartosat satellites
+
+World Record
+
+In 2017, PSLV launched 104 satellites in a single mission, setting a world record.
+
+Importance
+
+PSLV established India as a major provider of commercial satellite launch services.
+
+Summary
+
+PSLV remains one of the world's most reliable launch vehicles and a cornerstone of India's space program.

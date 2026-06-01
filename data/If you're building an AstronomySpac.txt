@@ -1,0 +1,470 @@
+If you're building an Astronomy/Space RAG chatbot, it's useful to have a few **foundational documents** that cover the entire field from beginner to advanced. Here is a roadmap of topics and concepts.
+
+# 1. Foundations of Astronomy
+
+## What is Astronomy?
+
+Astronomy is the scientific study of:
+
+* Stars
+* Planets
+* Moons
+* Galaxies
+* Black holes
+* The universe as a whole
+
+### Main Branches
+
+* Observational Astronomy
+* Theoretical Astronomy
+* Astrophysics
+* Cosmology
+* Planetary Science
+* Astrobiology
+
+---
+
+## The Scale of the Universe
+
+Key units:
+
+* Astronomical Unit (AU)
+* Light-Year
+* Parsec
+
+Examples:
+
+* Earth → Sun = 1 AU
+* Sun → Proxima Centauri = 4.24 light-years
+* Milky Way diameter ≈ 100,000 light-years
+
+---
+
+# 2. The Solar System
+
+## The Sun
+
+Topics:
+
+* Structure of the Sun
+* Nuclear Fusion
+* Solar Wind
+* Sunspots
+* Solar Flares
+* Coronal Mass Ejections
+
+---
+
+## Rocky Planets
+
+* Mercury
+* Venus
+* Earth
+* Mars
+
+Concepts:
+
+* Atmosphere
+* Surface geology
+* Water
+* Habitability
+
+---
+
+## Gas Giants
+
+* Jupiter
+* Saturn
+
+Concepts:
+
+* Hydrogen atmosphere
+* Rings
+* Large moons
+* Magnetic fields
+
+---
+
+## Ice Giants
+
+* Uranus
+* Neptune
+
+---
+
+## Small Bodies
+
+* Asteroids
+* Comets
+* Meteoroids
+* Meteorites
+* Kuiper Belt
+* Oort Cloud
+
+---
+
+# 3. Stars
+
+## Star Formation
+
+Process:
+
+Nebula → Protostar → Main Sequence Star
+
+Covered in:
+
+* Molecular clouds
+* Gravity
+* Nuclear fusion
+
+---
+
+## Stellar Evolution
+
+Low-mass stars:
+
+Main Sequence → Red Giant → Planetary Nebula → White Dwarf
+
+Massive stars:
+
+Main Sequence → Red Supergiant → Supernova → Neutron Star / Black Hole
+
+---
+
+## Star Types
+
+* Red Dwarf
+* Yellow Dwarf
+* Giant
+* Supergiant
+* Hypergiant
+
+---
+
+## Binary Stars
+
+* Eclipsing binaries
+* X-ray binaries
+* Pulsar binaries
+
+---
+
+# 4. Stellar Remnants
+
+## White Dwarfs
+
+* Electron degeneracy pressure
+* Chandrasekhar limit
+
+---
+
+## Neutron Stars
+
+* Extreme density
+* Strong magnetic fields
+
+---
+
+## Pulsars
+
+* Rotating neutron stars
+* Radio pulses
+
+---
+
+## Magnetars
+
+* Strongest magnetic fields known
+
+---
+
+## Black Holes
+
+Types:
+
+* Stellar
+* Intermediate
+* Supermassive
+* Primordial (hypothetical)
+
+Concepts:
+
+* Event Horizon
+* Singularity
+* Accretion Disk
+* Hawking Radiation
+
+---
+
+# 5. Galaxies
+
+## Galaxy Types
+
+* Spiral
+* Elliptical
+* Irregular
+
+---
+
+## Milky Way
+
+Contains:
+
+* Hundreds of billions of stars
+* Sagittarius A*
+* Dark matter halo
+
+---
+
+## Andromeda Galaxy
+
+Future collision with Milky Way.
+
+---
+
+## Galaxy Evolution
+
+Topics:
+
+* Galaxy mergers
+* Starbursts
+* Active Galactic Nuclei
+
+---
+
+# 6. Deep Space Objects
+
+## Nebulae
+
+Types:
+
+* Emission
+* Reflection
+* Dark
+* Planetary
+* Supernova remnants
+
+---
+
+## Quasars
+
+* Extremely bright galactic centers
+* Powered by supermassive black holes
+
+---
+
+## Active Galactic Nuclei
+
+* Energy production
+* Jets
+
+---
+
+# 7. Cosmology
+
+## Big Bang Theory
+
+Timeline:
+
+* Big Bang
+* Inflation
+* Recombination
+* Galaxy formation
+
+---
+
+## Cosmic Microwave Background
+
+Oldest light in the universe.
+
+---
+
+## Cosmic Inflation
+
+Rapid expansion shortly after Big Bang.
+
+---
+
+## Large Scale Structure
+
+* Galaxy groups
+* Galaxy clusters
+* Superclusters
+* Cosmic web
+
+---
+
+# 8. Dark Universe
+
+## Dark Matter
+
+Evidence:
+
+* Galaxy rotation curves
+* Gravitational lensing
+
+Estimated:
+
+~27% of universe
+
+---
+
+## Dark Energy
+
+Responsible for accelerated expansion.
+
+Estimated:
+
+~68% of universe
+
+---
+
+# 9. Relativity
+
+## Special Relativity
+
+Concepts:
+
+* Time dilation
+* Length contraction
+* Mass-energy equivalence
+
+Famous equation:
+
+E=mc^2
+
+---
+
+## General Relativity
+
+Concepts:
+
+* Curved spacetime
+* Gravity as geometry
+* Black holes
+* Gravitational waves
+
+---
+
+# 10. Gravitational Waves
+
+Topics:
+
+* LIGO
+* Virgo
+* KAGRA
+* Black hole mergers
+* Neutron star mergers
+
+---
+
+# 11. Exoplanets
+
+## Detection Methods
+
+* Transit Method
+* Radial Velocity
+* Microlensing
+* Direct Imaging
+
+---
+
+## Habitable Zone
+
+Also called:
+
+Goldilocks Zone
+
+---
+
+## Earth-like Worlds
+
+Examples:
+
+* Kepler-186f
+* TRAPPIST-1 system
+
+---
+
+# 12. Astrobiology
+
+Questions:
+
+* How did life originate?
+* Is life common?
+* Can life exist elsewhere?
+
+Topics:
+
+* Extremophiles
+* Biosignatures
+* Habitability
+
+---
+
+# 13. SETI
+
+Search for Extraterrestrial Intelligence
+
+Topics:
+
+* Drake Equation
+* Fermi Paradox
+* Technosignatures
+
+---
+
+# 14. Space Exploration
+
+## Historic Missions
+
+* Sputnik 1
+* Apollo Program
+* Voyager
+* Hubble
+
+---
+
+## Modern Missions
+
+* Artemis Program
+* Chandrayaan
+* Mangalyaan
+* Parker Solar Probe
+* James Webb Space Telescope
+
+---
+
+# 15. Rocket Science
+
+Topics:
+
+* Rocket propulsion
+* Escape velocity
+* Orbital mechanics
+* Reusable rockets
+
+Organizations:
+
+* ISRO
+* NASA
+* ESA
+* SpaceX
+
+---
+
+# 16. Advanced Topics
+
+* Wormholes
+* Hawking Radiation
+* Quantum Gravity
+* String Theory
+* Multiverse Theory
+* Fast Radio Bursts
+* Primordial Black Holes
+* Dyson Spheres
+* Interstellar Travel
+* Alcubierre Warp Drive
+* Quantum Cosmology
+
+For a **high-quality Astronomy RAG chatbot**, having documents on all the topics above (around 60–80 files total) gives excellent coverage from beginner to advanced questions and greatly improves retrieval accuracy.

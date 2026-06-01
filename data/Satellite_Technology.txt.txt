@@ -1,0 +1,84 @@
+Satellite_Technology.txt
+Introduction
+Satellite technology involves the design, construction, launch, and operation of artificial satellites orbiting Earth or other celestial bodies.
+
+History
+The era of satellite technology began with the launch of Sputnik 1 Launch in 1957.
+
+Since then, thousands of satellites have been launched for scientific, commercial, and military purposes.
+
+Components of a Satellite
+A satellite typically contains:
+
+Structure
+Supports all onboard systems.
+
+Power System
+Uses solar panels and batteries.
+
+Communication System
+Transmits and receives data.
+
+Propulsion System
+Controls orbital maneuvers.
+
+Thermal Control System
+Maintains operational temperatures.
+
+Payload
+Performs mission-specific tasks.
+
+Types of Satellites
+Communication Satellites
+Enable television, internet, and telecommunications.
+
+Weather Satellites
+Monitor atmospheric conditions.
+
+Navigation Satellites
+Provide positioning services.
+
+Earth Observation Satellites
+Study Earth's environment.
+
+Scientific Satellites
+Conduct astronomical and scientific research.
+
+Satellite Orbits
+Low Earth Orbit (LEO)
+
+Medium Earth Orbit (MEO)
+
+Geostationary Orbit (GEO)
+
+Polar Orbit
+
+Applications
+Satellite technology supports:
+
+Communication
+
+Weather forecasting
+
+Navigation
+
+Disaster monitoring
+
+Scientific research
+
+National security
+
+Current Research
+Modern developments include:
+
+Small satellites
+
+CubeSats
+
+Satellite constellations
+
+Interplanetary satellites
+
+Space-based internet systems
+
+Summary

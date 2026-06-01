@@ -1,0 +1,79 @@
+Cosmic_Microwave_Background.txt
+Introduction
+The Cosmic Microwave Background (CMB) is the oldest observable light in the universe. It represents radiation left over from the Big Bang and provides a snapshot of the universe when it was only 380,000 years old.
+
+The CMB is one of the strongest pieces of evidence supporting the Big Bang Theory.
+
+Discovery
+In 1965:
+
+Arno Penzias
+
+Robert Wilson
+
+discovered a faint microwave signal coming from all directions.
+
+This signal was identified as relic radiation from the early universe.
+
+Origin
+After the Big Bang:
+
+The universe was hot and dense.
+
+Light could not travel freely.
+
+About 380,000 years later:
+
+Atoms formed.
+
+Radiation escaped.
+
+The CMB was created.
+
+Properties
+Temperature
+Average temperature:
+
+2.725 Kelvin
+
+Uniformity
+Very uniform across the sky.
+
+Tiny Fluctuations
+Small temperature differences reveal early matter distributions.
+
+Importance
+The CMB helps scientists determine:
+
+Age of the universe
+
+Composition of the universe
+
+Expansion rate
+
+Early cosmic structure
+
+Major Missions
+COBE
+First detailed measurements.
+
+WMAP
+Improved precision.
+
+Planck Mission
+Produced the most detailed CMB map.
+
+Scientific Significance
+CMB observations support:
+
+Big Bang Theory
+
+Cosmic inflation
+
+Dark matter studies
+
+Dark energy research
+
+Summary
+The Cosmic Microwave Background is relic radiation from the early universe and provides one of the most important tools for understanding cosmology.
+

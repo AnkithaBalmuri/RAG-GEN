@@ -1,0 +1,360 @@
+Save this as:
+
+```text
+35_James_Webb_Space_Telescope.txt
+```
+
+# JAMES WEBB SPACE TELESCOPE
+
+## Introduction
+
+The James Webb Space Telescope (JWST) is the most powerful space telescope ever built. Developed through an international collaboration between NASA, the European Space Agency (ESA), and the Canadian Space Agency (CSA), JWST was designed to observe the universe in infrared wavelengths and answer some of the biggest questions in astronomy.
+
+The telescope allows scientists to look deeper into space and further back in time than any previous telescope. Because light takes time to travel, observing distant galaxies enables astronomers to study the early universe shortly after the Big Bang.
+
+JWST represents one of the most complex and ambitious scientific instruments ever constructed.
+
+---
+
+## History and Development
+
+The idea for JWST originated during the 1990s as a successor to the Hubble Space Telescope.
+
+Scientists wanted a telescope capable of:
+
+* Observing the first galaxies
+* Studying star formation
+* Investigating exoplanet atmospheres
+* Exploring cosmic evolution
+
+Development required decades of engineering, testing, and international cooperation.
+
+Major contributors included:
+
+* NASA
+* ESA
+* CSA
+
+After years of preparation, the telescope was launched on December 25, 2021.
+
+---
+
+## Launch Mission
+
+Launch Vehicle:
+
+* Ariane 5 Rocket
+
+Launch Site:
+
+* Guiana Space Centre, French Guiana
+
+Launch Date:
+
+* December 25, 2021
+
+The launch was highly successful and placed JWST on a trajectory toward its operational location.
+
+Following launch, the telescope completed one of the most complicated deployment sequences ever attempted in space.
+
+More than 300 individual deployment steps were required.
+
+---
+
+## Location in Space
+
+Unlike Hubble, which orbits Earth, JWST operates near the Second Lagrange Point (L2).
+
+Distance from Earth:
+
+* Approximately 1.5 million kilometers
+
+Advantages of L2:
+
+* Stable thermal environment
+* Continuous communication with Earth
+* Ability to keep Sun, Earth, and Moon on the same side
+
+This location allows the telescope to maintain extremely cold temperatures needed for infrared observations.
+
+---
+
+## Telescope Design
+
+JWST is much larger than Hubble.
+
+Primary Mirror:
+
+* Diameter: 6.5 meters
+
+Mirror Segments:
+
+* 18 hexagonal segments
+
+Material:
+
+* Gold-coated beryllium
+
+The gold coating enhances reflection of infrared light.
+
+When fully deployed, the mirror collects significantly more light than Hubble.
+
+---
+
+## Sunshield
+
+One of JWST's most important features is its giant sunshield.
+
+Characteristics:
+
+* Five layers
+* Size comparable to a tennis court
+* Reduces heat from the Sun
+
+Purpose:
+
+* Keeps telescope instruments extremely cold
+* Protects infrared observations from thermal interference
+
+Without the sunshield, the telescope could not perform its scientific mission.
+
+---
+
+## Scientific Instruments
+
+### Near Infrared Camera (NIRCam)
+
+Functions:
+
+* Deep-space imaging
+* Galaxy observations
+* Exoplanet detection
+
+NIRCam captured many of JWST's first images.
+
+---
+
+### Near Infrared Spectrograph (NIRSpec)
+
+Functions:
+
+* Analyze chemical composition
+* Measure galaxy distances
+* Study star formation
+
+NIRSpec can observe hundreds of objects simultaneously.
+
+---
+
+### Mid-Infrared Instrument (MIRI)
+
+Functions:
+
+* Observe dust clouds
+* Detect faint galaxies
+* Study planetary systems
+
+MIRI allows observations at longer infrared wavelengths.
+
+---
+
+### Fine Guidance Sensor (FGS)
+
+Functions:
+
+* Precise telescope pointing
+* Stability control
+
+This system ensures accurate observations.
+
+---
+
+## Mission Objectives
+
+JWST was designed to answer fundamental scientific questions.
+
+Major objectives include:
+
+### First Galaxies
+
+Observe galaxies formed shortly after the Big Bang.
+
+### Star Formation
+
+Study how stars are born inside giant molecular clouds.
+
+### Planetary Systems
+
+Investigate formation of planets around young stars.
+
+### Exoplanets
+
+Analyze atmospheres of distant worlds.
+
+### Cosmic Evolution
+
+Understand how galaxies evolved over billions of years.
+
+---
+
+## Observing the Early Universe
+
+One of JWST's primary goals is studying the early universe.
+
+The telescope can detect light emitted over 13 billion years ago.
+
+This enables scientists to observe:
+
+* Early galaxies
+* Early stars
+* Cosmic structure formation
+
+Many observed galaxies existed only a few hundred million years after the Big Bang.
+
+---
+
+## Exoplanet Research
+
+JWST has revolutionized exoplanet science.
+
+Scientists can analyze:
+
+* Atmospheric composition
+* Temperature
+* Weather patterns
+* Water vapor
+* Carbon dioxide
+* Methane
+
+These observations help determine whether planets may be habitable.
+
+---
+
+## Star Formation Studies
+
+Stars form inside dense clouds of gas and dust.
+
+Visible light cannot easily penetrate these regions.
+
+Infrared observations allow JWST to see through dust clouds and study:
+
+* Protostars
+* Protoplanetary disks
+* Stellar nurseries
+
+This improves understanding of stellar evolution.
+
+---
+
+## Galaxy Formation Research
+
+JWST studies:
+
+* Galaxy mergers
+* Black holes
+* Star populations
+* Dark matter effects
+
+Scientists use these observations to understand how galaxies evolve over cosmic time.
+
+---
+
+## Black Hole Studies
+
+The telescope investigates:
+
+* Supermassive black holes
+* Active galactic nuclei
+* Quasars
+
+Observations reveal how black holes influence galaxy formation and growth.
+
+---
+
+## Major Discoveries
+
+Since becoming operational, JWST has produced remarkable discoveries.
+
+Examples include:
+
+* Extremely distant galaxies
+* Detailed nebula structures
+* Exoplanet atmospheric analysis
+* Star-forming regions
+* Black hole observations
+
+Many discoveries have challenged existing theories of cosmic evolution.
+
+---
+
+## Scientific Importance
+
+JWST contributes to numerous fields:
+
+* Cosmology
+* Astrophysics
+* Planetary science
+* Stellar astronomy
+* Exoplanet research
+
+Its observations help refine scientific models across astronomy.
+
+---
+
+## International Collaboration
+
+JWST represents one of the largest international scientific collaborations.
+
+Contributions include:
+
+NASA:
+
+* Telescope development
+* Mission operations
+
+ESA:
+
+* Launch services
+* Scientific instruments
+
+CSA:
+
+* Guidance systems
+* Scientific support
+
+This cooperation demonstrates the value of global scientific partnerships.
+
+---
+
+## Future Research
+
+JWST is expected to operate for many years.
+
+Future investigations include:
+
+* Earth-like exoplanets
+* First-generation stars
+* Dark matter environments
+* Galaxy evolution
+* Planetary atmospheres
+
+Scientists expect many groundbreaking discoveries.
+
+---
+
+## Interesting Facts
+
+* Largest space telescope ever launched.
+* Mirror diameter is 6.5 meters.
+* Operates 1.5 million km from Earth.
+* Uses 18 gold-coated mirror segments.
+* Can observe galaxies over 13 billion years old.
+* Uses infrared astronomy.
+* Cost more than $10 billion to develop.
+* Sunshield is approximately the size of a tennis court.
+
+---
+
+## Summary
+
+The James Webb Space Telescope is one of humanity's greatest scientific achievements. Its advanced infrared capabilities allow astronomers to study the earliest galaxies, investigate exoplanet atmospheres, observe stellar nurseries, and explore fundamental questions about the origin and evolution of the universe. JWST is transforming modern astronomy and is expected to produce revolutionary discoveries for decades to come.

@@ -1,0 +1,60 @@
+Chandrayaan_3.txt
+Introduction
+Chandrayaan-3 is India's third lunar exploration mission developed by ISRO. Its primary objective was to demonstrate safe lunar landing technology and rover operations on the Moon.
+
+Background
+After Chandrayaan-2's lander lost communication during descent, ISRO carefully analyzed the mission and improved landing systems for Chandrayaan-3.
+
+Mission Components
+The mission consisted of:
+
+Propulsion Module
+
+Vikram Lander
+
+Pragyan Rover
+
+Unlike Chandrayaan-2, Chandrayaan-3 did not include an orbiter because the Chandrayaan-2 orbiter remained operational.
+
+Launch
+Launch Vehicle: LVM3-M4
+
+Launch Date: July 14, 2023
+
+Launch Site: Satish Dhawan Space Centre
+
+Historic Landing
+On August 23, 2023, the Vikram lander successfully touched down near the Moon's south polar region.
+
+India became:
+
+Fourth country to soft-land on the Moon
+
+First country to land near the lunar south pole
+
+Pragyan Rover
+The rover carried instruments to analyze:
+
+Lunar soil composition
+
+Mineral content
+
+Surface characteristics
+
+The rover traveled across the lunar surface conducting scientific experiments.
+
+Scientific Objectives
+Demonstrate safe landing technology
+
+Study lunar geology
+
+Analyze elemental composition
+
+Investigate south polar environment
+
+Global Significance
+The mission attracted worldwide attention because the lunar south pole is considered important for future human exploration due to possible water ice deposits.
+
+Summary
+Chandrayaan-3 was a historic success that significantly strengthened India's position in global space exploration.
+

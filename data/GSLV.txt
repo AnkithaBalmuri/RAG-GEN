@@ -1,0 +1,51 @@
+GSLV
+
+Introduction
+
+The Geosynchronous Satellite Launch Vehicle (GSLV) is a launch vehicle developed by ISRO to place satellites into geostationary transfer orbit and other missions requiring higher payload capacity.
+
+Development
+
+The GSLV program was developed to reduce dependence on foreign launch services and strengthen India's space capabilities.
+
+Configuration
+
+GSLV consists of:
+
+* Solid first stage
+* Liquid strap-on boosters
+* Liquid second stage
+* Cryogenic upper stage
+
+Cryogenic Engine
+
+The cryogenic stage uses liquid hydrogen and liquid oxygen.
+
+Advantages:
+
+* Higher efficiency
+* Increased payload capability
+* Advanced propulsion technology
+
+Applications
+
+GSLV launches:
+
+* Communication satellites
+* Weather satellites
+* Navigation satellites
+* Scientific missions
+
+Major Missions
+
+* GSAT missions
+* INSAT missions
+* Chandrayaan-2
+
+Importance
+
+The GSLV program significantly improved India's independent launch capability.
+
+Summary
+
+GSLV is one of ISRO's most important launch vehicles and demonstrates India's expertise in advanced rocket technology.

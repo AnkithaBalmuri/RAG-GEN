@@ -1,0 +1,54 @@
+chandrayaan_2.txt
+Introduction
+Chandrayaan-2 was India's second lunar mission designed to explore the Moon's south polar region.
+
+Mission Components
+The mission consisted of:
+
+Orbiter
+
+Vikram Lander
+
+Pragyan Rover
+
+Launch
+Launch Date: July 22, 2019
+
+Launch Vehicle: GSLV Mk III
+
+Scientific Goals
+Map the lunar surface
+
+Study mineral composition
+
+Search for water ice
+
+Analyze lunar exosphere
+
+Orbiter Success
+Although the lander experienced difficulties, the orbiter remains one of the most successful lunar orbiters.
+
+The orbiter carries advanced instruments including:
+
+Terrain Mapping Camera
+
+Synthetic Aperture Radar
+
+Imaging Infrared Spectrometer
+
+Discoveries
+The orbiter contributed to studies of:
+
+Water molecules
+
+Lunar topography
+
+Surface chemistry
+
+Polar regions
+
+Lessons Learned
+Data from Chandrayaan-2 directly helped engineers improve Chandrayaan-3.
+
+Summary
+Despite the landing setback, Chandrayaan-2 remains a highly successful scientific mission and continues to provide valuable lunar data.

@@ -1,0 +1,63 @@
+GPS_Satellites.txt
+Introduction
+Global Positioning System (GPS) satellites form a space-based navigation network that allows users to determine precise location, velocity, and time anywhere on Earth.
+
+History
+GPS was originally developed by the United States Department of Defense for military purposes before becoming available for civilian use.
+
+How GPS Works
+The system consists of:
+
+Space Segment
+
+Control Segment
+
+User Segment
+
+At least 24 satellites continuously orbit Earth.
+
+Principles of Navigation
+GPS receivers calculate location by measuring signals from multiple satellites.
+
+The process uses:
+
+Trilateration
+
+Atomic clocks
+
+Radio signals
+
+Applications
+GPS is used in:
+
+Smartphones
+
+Aviation
+
+Shipping
+
+Agriculture
+
+Surveying
+
+Emergency services
+
+Military operations
+
+Scientific Importance
+GPS supports:
+
+Earth science
+
+Climate monitoring
+
+Disaster management
+
+Geophysical studies
+
+Future Developments
+Modern GPS systems provide greater accuracy and reliability through upgraded satellites and signals.
+
+Summary
+GPS satellites have transformed navigation and become essential infrastructure for modern society.
+

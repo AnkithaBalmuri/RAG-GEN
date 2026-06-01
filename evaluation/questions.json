@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eval-001",
+    "question": "What is a black hole?",
+    "expectedAnswer": "A black hole is an extremely dense object whose gravity is strong enough that light cannot escape.",
+    "expectedSources": ["BLACK HOLES"]
+  },
+  {
+    "id": "eval-002",
+    "question": "How are exoplanets detected?",
+    "expectedAnswer": "Exoplanets can be detected using methods such as transit observations, radial velocity, direct imaging, and microlensing.",
+    "expectedSources": ["EXOPLANETS", "Exoplanet_Detection_Methods"]
+  },
+  {
+    "id": "eval-003",
+    "question": "What is the Milky Way galaxy?",
+    "expectedAnswer": "The Milky Way is the galaxy that contains our Solar System, with stars, gas, dust, and dark matter arranged in a barred spiral structure.",
+    "expectedSources": ["MILKY WAY GALAXY"]
+  },
+  {
+    "id": "eval-004",
+    "question": "What is dark matter?",
+    "expectedAnswer": "Dark matter is unseen matter inferred from gravitational effects on galaxies, clusters, and cosmic structure.",
+    "expectedSources": ["DARK MATTER"]
+  },
+  {
+    "id": "eval-005",
+    "question": "What does the Big Bang theory describe?",
+    "expectedAnswer": "The Big Bang theory describes the early expansion of the universe from a hot, dense state.",
+    "expectedSources": ["BIG BANG THEORY"]
+  },
+  {
+    "id": "eval-006",
+    "question": "What is Chandrayaan-1 known for?",
+    "expectedAnswer": "Chandrayaan-1 was India's lunar mission and is associated with evidence for water or hydroxyl on the Moon.",
+    "expectedSources": ["Chandrayaan_1"]
+  },
+  {
+    "id": "eval-007",
+    "question": "What was the purpose of Chandrayaan-3?",
+    "expectedAnswer": "Chandrayaan-3 aimed to demonstrate safe lunar landing and rover operations on the Moon.",
+    "expectedSources": ["Chandrayaan_3"]
+  },
+  {
+    "id": "eval-008",
+    "question": "What is Gaganyaan?",
+    "expectedAnswer": "Gaganyaan is India's human spaceflight program.",
+    "expectedSources": ["GAGANYAAN"]
+  },
+  {
+    "id": "eval-009",
+    "question": "What is PSLV used for?",
+    "expectedAnswer": "PSLV is used to launch satellites into orbit, including Earth observation, remote sensing, and interplanetary mission payloads.",
+    "expectedSources": ["PSLV"]
+  },
+  {
+    "id": "eval-010",
+    "question": "What is GSLV?",
+    "expectedAnswer": "GSLV is an Indian launch vehicle designed to place heavier payloads into higher orbits such as geosynchronous transfer orbit.",
+    "expectedSources": ["GSLV"]
+  },
+  {
+    "id": "eval-011",
+    "question": "What is gravitational lensing?",
+    "expectedAnswer": "Gravitational lensing occurs when gravity from massive objects bends and magnifies light from background sources.",
+    "expectedSources": ["Gravitational_Lensing"]
+  },
+  {
+    "id": "eval-012",
+    "question": "What are gravitational waves?",
+    "expectedAnswer": "Gravitational waves are ripples in spacetime produced by accelerating massive objects.",
+    "expectedSources": ["GRAVITATIONAL WAVES"]
+  },
+  {
+    "id": "eval-013",
+    "question": "What are pulsars?",
+    "expectedAnswer": "Pulsars are rapidly rotating neutron stars that emit beams of radiation observed as regular pulses.",
+    "expectedSources": ["PULSARS"]
+  },
+  {
+    "id": "eval-014",
+    "question": "What are quasars?",
+    "expectedAnswer": "Quasars are extremely luminous active galactic nuclei powered by accretion onto supermassive black holes.",
+    "expectedSources": ["QUASARS"]
+  },
+  {
+    "id": "eval-015",
+    "question": "What is infrared astronomy useful for?",
+    "expectedAnswer": "Infrared astronomy helps observe cooler objects and regions obscured by dust, including star-forming regions.",
+    "expectedSources": ["INFRARED ASTRONOMY"]
+  },
+  {
+    "id": "eval-016",
+    "question": "What is radio astronomy?",
+    "expectedAnswer": "Radio astronomy studies radio-frequency radiation from space objects and phenomena.",
+    "expectedSources": ["radio"]
+  },
+  {
+    "id": "eval-017",
+    "question": "What are space telescopes?",
+    "expectedAnswer": "Space telescopes observe the universe from space, avoiding many limitations of Earth's atmosphere.",
+    "expectedSources": ["SPACE TELESCOPES"]
+  },
+  {
+    "id": "eval-018",
+    "question": "What is the International Space Station?",
+    "expectedAnswer": "The International Space Station is an orbital laboratory used for research and international space cooperation.",
+    "expectedSources": ["INTERNATIONAL SPACE STATION"]
+  },
+  {
+    "id": "eval-019",
+    "question": "What are GPS satellites used for?",
+    "expectedAnswer": "GPS satellites provide positioning, navigation, and timing signals.",
+    "expectedSources": ["GPS_Satellites"]
+  },
+  {
+    "id": "eval-020",
+    "question": "What is star formation?",
+    "expectedAnswer": "Star formation is the process by which dense regions in molecular clouds collapse and form new stars.",
+    "expectedSources": ["STAR FORMATION"]
+  }
+]
