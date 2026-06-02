@@ -62,16 +62,21 @@ export async function runRag(question: string, topK = DEFAULT_TOP_K) {
   const answer = await answerWithContext(question, retrieval.chunks);
   const missingContext = isMissingContextAnswer(answer);
 
-  await writeAdaptiveLog({
-    originalQuery: question,
-    queryType,
-    rewrittenQuery,
-    retrievedDocuments: citations,
-    similarityScores: citations.map((citation) => citation.score),
-    finalAnswer: answer,
-    confidence: quality,
-    missingContext
-  });
+  try {
+    await writeAdaptiveLog({
+      originalQuery: question,
+      queryType,
+      rewrittenQuery,
+      retrievedDocuments: citations,
+      similarityScores: citations.map((citation) => citation.score),
+      finalAnswer: answer,
+      confidence: quality,
+      missingContext
+    });
+  } catch (error) {
+    console.warn("[AdaptiveRAG] Logging skipped:", error instanceof Error ? error.message : error);
+  }
 
   return { ...retrieval, answer, queryType, rewrittenQuery, confidence: quality, citations, missingContext };
 }
+

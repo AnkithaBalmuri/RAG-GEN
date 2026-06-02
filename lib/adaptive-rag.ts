@@ -1,4 +1,4 @@
-import { promises as fs } from "fs";
+﻿import { promises as fs } from "fs";
 import path from "path";
 import { RETRIEVAL_CONFIDENCE_THRESHOLD, UNAVAILABLE_ANSWER } from "@/lib/constants";
 import type { AdaptiveLogEntry, CitationReference, DocumentChunk, QueryType, RetrievalQuality } from "@/types";
@@ -49,13 +49,24 @@ export function isMissingContextAnswer(answer: string) {
 }
 
 export async function writeAdaptiveLog(entry: Omit<AdaptiveLogEntry, "id" | "createdAt">) {
-  await fs.mkdir(LOG_DIR, { recursive: true });
   const payload: AdaptiveLogEntry = {
     id: crypto.randomUUID(),
     createdAt: new Date().toISOString(),
     ...entry
   };
-  await fs.appendFile(LOG_PATH, `${JSON.stringify(payload)}\n`, "utf8");
+
+  if (process.env.NODE_ENV === "production") {
+    console.log("[AdaptiveRAG]", JSON.stringify(payload));
+    return payload;
+  }
+
+  try {
+    await fs.mkdir(LOG_DIR, { recursive: true });
+    await fs.appendFile(LOG_PATH, `${JSON.stringify(payload)}\n`, "utf8");
+  } catch (error) {
+    console.warn("[AdaptiveRAG] Local file logging failed:", error instanceof Error ? error.message : error);
+  }
+
   return payload;
 }
 
@@ -76,3 +87,4 @@ export async function readAdaptiveLogs(limit = 100): Promise<AdaptiveLogEntry[]>
 function round(value: number) {
   return Number(value.toFixed(3));
 }
+

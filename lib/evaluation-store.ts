@@ -1,4 +1,4 @@
-import { promises as fs } from "fs";
+﻿import { promises as fs } from "fs";
 import path from "path";
 import type { EvaluationMetrics } from "@/types";
 
@@ -34,8 +34,17 @@ export async function readEvaluationQuestions(): Promise<EvaluationQuestion[]> {
 }
 
 export async function writeEvaluationReport(report: EvaluationReport) {
-  await fs.mkdir(EVALUATION_DIR, { recursive: true });
-  await fs.writeFile(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  if (process.env.NODE_ENV === "production") {
+    console.log("[EvaluationReport]", JSON.stringify({ createdAt: report.createdAt, count: report.count, averages: report.averages }));
+    return;
+  }
+
+  try {
+    await fs.mkdir(EVALUATION_DIR, { recursive: true });
+    await fs.writeFile(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  } catch (error) {
+    console.warn("[EvaluationReport] Local file write failed:", error instanceof Error ? error.message : error);
+  }
 }
 
 export async function readEvaluationReport(): Promise<EvaluationReport | null> {
@@ -69,3 +78,4 @@ export function averageMetrics(items: EvaluationReportItem[]): EvaluationMetrics
 function round(value: number) {
   return Number(value.toFixed(3));
 }
+
