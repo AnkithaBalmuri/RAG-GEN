@@ -1,6 +1,4 @@
 ﻿export const PINECONE_NAMESPACE = "space-astronomy";
-export const EMBEDDING_MODEL = process.env.OPENAI_EMBEDDING_MODEL || "text-embedding-3-small";
-export const EMBEDDING_DIMENSIONS = Number(process.env.OPENAI_EMBEDDING_DIMENSIONS || 512);
 export const DEFAULT_TOP_K = 6;
 export const RETRIEVAL_CONFIDENCE_THRESHOLD = 40;
 export const UNAVAILABLE_ANSWER = "I could not find this information in the provided documents.";
@@ -25,5 +23,3 @@ export const SEARCH_QUERY_PROMPT =
 
 export const QUERY_REWRITE_PROMPT =
   "Rewrite the user's question into one retrieval-friendly Space and Astronomy knowledge-base query. Expand acronyms where obvious, preserve the user's intent, and return only the rewritten query.";
-
-
