@@ -1,23 +1,20 @@
-import { DEFAULT_TOP_K } from "@/lib/constants";
-import { embedText } from "@/lib/embeddings";
+﻿import { DEFAULT_TOP_K } from "@/lib/constants";
 import { analyzeQueryType, buildCitations, evaluateRetrievalQuality, isMissingContextAnswer, writeAdaptiveLog } from "@/lib/adaptive-rag";
 import { answerWithContext, generateSearchQuery, generateTags, rewriteQuery } from "@/lib/groq";
-import { queryChunks } from "@/lib/pinecone";
+import { searchChunkRecords } from "@/lib/pinecone";
 import { extractKeywords, uniqueValues } from "@/lib/text";
 
 export async function searchKnowledgeBase(question: string, topK = DEFAULT_TOP_K) {
   const keywords = extractKeywords(question);
-  const [questionVector, searchQuery, tags] = await Promise.all([
-    embedText(question),
+  const [searchQuery, tags] = await Promise.all([
     generateSearchQuery(question),
     generateTags(question)
   ]);
-  const queryVector = await embedText(searchQuery);
 
   const [questionMatches, queryMatches, tagMatches] = await Promise.all([
-    queryChunks(questionVector, topK * 2),
-    queryChunks(queryVector, topK * 2),
-    tags.length ? queryChunks(queryVector, topK * 2, tags) : Promise.resolve([])
+    searchChunkRecords(question, topK * 2),
+    searchChunkRecords(searchQuery, topK * 2),
+    tags.length ? searchChunkRecords(searchQuery, topK * 2, tags) : Promise.resolve([])
   ]);
 
   const merged = [...questionMatches, ...queryMatches, ...tagMatches]

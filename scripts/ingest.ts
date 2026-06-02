@@ -1,22 +1,18 @@
-import fs from "node:fs/promises";
+﻿import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { Pinecone } from "@pinecone-database/pinecone";
 import pdf from "pdf-parse";
-import { pipeline } from "@xenova/transformers";
 
 const PROJECT_ROOT = process.cwd();
 
-// Put your knowledge-base documents here. Add, edit, or delete .md, .txt, and .pdf files,
-// then run `npm run ingest` to rebuild the Pinecone index from the current folder contents.
+// Place knowledge-base documents in /data. Add, edit, or delete .md, .txt, and .pdf files,
+// then run `npm run ingest` to rebuild Pinecone records with Pinecone-hosted embeddings.
 const DATA_DIR = path.join(PROJECT_ROOT, "data");
-
 const PINECONE_NAMESPACE = "space-astronomy";
-const EMBEDDING_MODEL = "Xenova/all-MiniLM-L6-v2";
-const EMBEDDING_DIMENSIONS = 384;
 const CHUNK_SIZE = 1100;
 const CHUNK_OVERLAP = 180;
-const UPSERT_BATCH_SIZE = 25;
+const UPSERT_BATCH_SIZE = 96;
 const UPSERT_RETRIES = 4;
 
 type DataDocument = {
@@ -26,9 +22,15 @@ type DataDocument = {
   text: string;
 };
 
-type FeatureExtractor = Awaited<ReturnType<typeof pipeline>>;
-
-let extractorPromise: Promise<FeatureExtractor> | null = null;
+type IntegratedRecord = {
+  id: string;
+  text: string;
+  filename: string;
+  source: string;
+  chunkNumber: number;
+  uploadDate: string;
+  tags: string[];
+};
 
 function loadEnvFile(filePath: string) {
   return fs
@@ -38,9 +40,7 @@ function loadEnvFile(filePath: string) {
         const trimmed = line.trim();
         if (!trimmed || trimmed.startsWith("#") || !trimmed.includes("=")) continue;
         const [key, ...valueParts] = trimmed.split("=");
-        if (!process.env[key]) {
-          process.env[key] = valueParts.join("=").trim();
-        }
+        if (!process.env[key]) process.env[key] = valueParts.join("=").trim();
       }
     })
     .catch(() => undefined);
@@ -106,19 +106,6 @@ function makeTags(text: string, filename: string) {
   return Array.from(new Set([...matched, ...words.slice(0, 10)])).slice(0, 8);
 }
 
-async function getExtractor() {
-  if (!extractorPromise) {
-    extractorPromise = pipeline("feature-extraction", EMBEDDING_MODEL);
-  }
-  return extractorPromise;
-}
-
-async function embedText(text: string) {
-  const extractor = await getExtractor();
-  const result = (await extractor(text, { pooling: "mean", normalize: true } as never)) as { data: Float32Array };
-  return Array.from(result.data);
-}
-
 async function listDataFiles(directory: string): Promise<string[]> {
   const entries = await fs.readdir(directory, { withFileTypes: true });
   const files = await Promise.all(
@@ -149,44 +136,19 @@ async function extractDocument(filePath: string): Promise<DataDocument> {
   };
 }
 
-async function ensureIndex(pc: Pinecone, indexName: string) {
-  const existing = await pc.listIndexes();
-  const currentIndex = existing.indexes?.find((index) => index.name === indexName);
-
-  if (currentIndex?.dimension && currentIndex.dimension !== EMBEDDING_DIMENSIONS) {
-    throw new Error(
-      `Pinecone index "${indexName}" has dimension ${currentIndex.dimension}. This project uses ${EMBEDDING_DIMENSIONS}-dimension embeddings.`
-    );
-  }
-
-  if (!currentIndex) {
-    await pc.createIndex({
-      name: indexName,
-      dimension: EMBEDDING_DIMENSIONS,
-      metric: "cosine",
-      spec: {
-        serverless: {
-          cloud: "aws",
-          region: "us-east-1"
-        }
-      }
-    });
-  }
-}
-
 async function sleep(ms: number) {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function upsertWithRetry(index: ReturnType<ReturnType<Pinecone["index"]>["namespace"]>, records: unknown[]) {
+async function upsertWithRetry(namespace: ReturnType<ReturnType<Pinecone["index"]>["namespace"]>, records: IntegratedRecord[]) {
   for (let attempt = 1; attempt <= UPSERT_RETRIES; attempt += 1) {
     try {
-      await index.upsert(records as never);
+      await namespace.upsertRecords(records);
       return;
     } catch (error) {
       if (attempt === UPSERT_RETRIES) throw error;
       const delay = attempt * 2500;
-      console.warn(`Pinecone upsert failed. Retrying batch in ${delay}ms (${attempt}/${UPSERT_RETRIES})...`);
+      console.warn(`Pinecone upsertRecords failed. Retrying batch in ${delay}ms (${attempt}/${UPSERT_RETRIES})...`);
       await sleep(delay);
     }
   }
@@ -195,24 +157,21 @@ async function upsertWithRetry(index: ReturnType<ReturnType<Pinecone["index"]>["
 async function main() {
   await loadEnvFile(path.join(PROJECT_ROOT, ".env.local"));
   await loadEnvFile(path.join(PROJECT_ROOT, ".env"));
-
   await fs.mkdir(DATA_DIR, { recursive: true });
 
   const files = await listDataFiles(DATA_DIR);
   const pc = new Pinecone({ apiKey: requiredEnv("PINECONE_API_KEY") });
   const indexName = requiredEnv("PINECONE_INDEX_NAME");
   const host = process.env.PINECONE_HOST;
+  const namespace = (host ? pc.index(indexName, host) : pc.index(indexName)).namespace(PINECONE_NAMESPACE);
 
-  await ensureIndex(pc, indexName);
-  const index = (host ? pc.index(indexName, host) : pc.index(indexName)).namespace(PINECONE_NAMESPACE);
-
-  // Re-indexing policy: clear the namespace first, then upload vectors for the current /data folder.
-  // This means deleted files are removed from the active knowledge base after `npm run ingest`.
-  await index.deleteAll().catch(() => undefined);
+  // Re-indexing policy: clear the namespace first, then upload raw text records.
+  // Pinecone integrated inference embeds the `text` field inside the astrospace index.
+  await namespace.deleteAll().catch(() => undefined);
 
   if (!files.length) {
     console.log("No .md, .txt, or .pdf files found in /data.");
-    console.log("The Pinecone namespace was cleared. Add your documents to data/ and run npm run ingest again.");
+    console.log("The Pinecone namespace was cleared. Add documents to data/ and run npm run ingest again.");
     return;
   }
 
@@ -227,25 +186,19 @@ async function main() {
 
     console.log(`Indexing ${document.relativePath} (${chunks.length} chunks)`);
 
-    const records = [];
-    for (let index = 0; index < chunks.length; index += 1) {
-      records.push({
-        id: `${baseId}-${index}`,
-        values: await embedText(chunks[index]),
-        metadata: {
-          text: chunks[index],
-          filename: document.filename,
-          source: document.relativePath,
-          chunkNumber: index + 1,
-          uploadDate: uploadedAt,
-          tags
-        }
-      });
-    }
+    const records = chunks.map((chunk, index) => ({
+      id: `${baseId}-${index}`,
+      text: chunk,
+      filename: document.filename,
+      source: document.relativePath,
+      chunkNumber: index + 1,
+      uploadDate: uploadedAt,
+      tags
+    }));
 
     for (let i = 0; i < records.length; i += UPSERT_BATCH_SIZE) {
       const batch = records.slice(i, i + UPSERT_BATCH_SIZE);
-      await upsertWithRetry(index, batch);
+      await upsertWithRetry(namespace, batch);
       console.log(`  Uploaded ${Math.min(i + UPSERT_BATCH_SIZE, records.length)}/${records.length} chunks`);
     }
 
